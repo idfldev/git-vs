@@ -13,7 +13,7 @@
 - git merge master
 - git checkout master
 
-### …or create a new repository on the command line echo "# test_git" >> README.md*
+#### …or create a new repository on the command line echo "# test_git" >> README.md*
 
 - git init
 - git add README.md
