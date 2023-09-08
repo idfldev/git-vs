@@ -23,7 +23,7 @@
 - git push -u origin master
 - git pull origin master
 
-### …or push an existing repository from the command line*
+#### …or push an existing repository from the command line*
 
 - git remote add origin <https://github.com/idfldev/test_git.git>
 - git branch -M master
@@ -92,6 +92,9 @@ you can use in a README.md file or any Markdown document:
 # Header 1
 ## Header 2
 ### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 ```
 
 - Emphasis:
