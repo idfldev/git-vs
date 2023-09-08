@@ -1,28 +1,34 @@
 
-### ==== Base git commands for tutorial ==============
+### === Base git commands for tutorial ===
+
 - git init -> first command in the folder
 - git add filename
 - git status
 
-- git config --global user.email "you@example.com"
-- git config --global user.name "Your Name" 
+- git config --global user.email "<you@example.com>"
+- git config --global user.name "Your Name"
 
 - git checkout -b new_branch_name
 - git add .
 - git merge master
 - git checkout master
+
 ### …or create a new repository on the command line echo "# test_git" >> README.md*
+
 - git init
 - git add README.md
 - git commit -m "first commit"
 - git branch -M master
-- git remote add origin https://github.com/idfldev/test_git.git
+- git remote add origin <https://github.com/idfldev/test_git.git>
 - git push -u origin master
 - git pull origin master
+
 ### …or push an existing repository from the command line*
-- git remote add origin https://github.com/idfldev/test_git.git
+
+- git remote add origin <https://github.com/idfldev/test_git.git>
 - git branch -M master
 - git push -u origin master
+
 ### ==== Here's a list of common Git commands for beginners to advanced users: ===
 
 - Basic Git Commands:
@@ -54,7 +60,7 @@
   - **git reset [commit]**: Unstage changes and move the branch pointer.
   - **git rebase [branch_name]**: Reapply your changes on top of another branch.
   - **git cherry-pick [commit]**: Apply a specific commit from one branch to another.
-    
+
 - Advanced Git Commands:
   - **git bisect**: Find a specific commit that introduced a bug.
   - **git reflog**: View a log of all Git references.
@@ -71,97 +77,134 @@
 >information about its usage. Additionally, the Git documentation and various
 >online tutorials can help you learn more about using Git effectively.
 
-### ==== How To Markdown Format in Readme.md File ======
-Formatting files using Markdown is a common practice, 
-especially when creating README.md files for projects 
-on platforms like GitHub. Markdown is a lightweight markup 
-language that allows you to format text documents with ease. 
-Below is a list of common Markdown formatting elements that 
+### === How To Markdown Format in Readme.md File ===
+
+Formatting files using Markdown is a common practice,
+especially when creating README.md files for projects
+on platforms like GitHub. Markdown is a lightweight markup
+language that allows you to format text documents with ease.
+Below is a list of common Markdown formatting elements that
 you can use in a README.md file or any Markdown document:
--  Headers: 
-```
+
+- Headers:
+
+```markdown
 # Header 1
 ## Header 2
 ### Header 3
 ```
--  Emphasis: 
-```
+
+- Emphasis:
+
+```markdown
 *Italic* or _Italic_
 **Bold** or __Bold__
 ```
--  Lists: 
-    - Unordered List:
-```
+
+- Lists:
+  - Unordered List:
+
+```markdown
 - Item 1
 - Item 2
   - Subitem 1
   - Subitem 2
 ```
+
 1. Ordered List:
-```
+
+```markdown
 1. First item
 2. Second item
 ```
--  Links: 
-```
+
+- Links:
+
+```markdown
 [Link Text](URL)
 ```
--  Images: 
-```
+
+- Images:
+
+```markdown
 ![Alt Text](Image_URL)
 ```
--  Blockquotes: 
-```
+
+- Blockquotes:
+
+```markdown
 > This is a blockquote.
 ```
--  Code: 
-    - Inline code:
-```
+
+- Code:
+  - Inline code:
+
+```python
 Use backticks (`) to highlight `inline code`.
 ```
+
 - Code block:
-    - Python
-```
+  - Python
+  - markdown
+
+```python
 def hello_world():
     print("Hello, World!")
 ```
+
 > Specify the language after the triple backticks to enable syntax highlighting for that language.
--  Tables: 
+
+- Tables:
+
+```markdown
+| Header 1  | Header 2  |
+| --------- | --------- |
+| Content 1 | Content 2 |
 ```
-| Header 1 | Header 2 |
-| -------- | -------- |
-| Content 1| Content 2|
-```
--  Task Lists: 
-```
+
+- Task Lists:
+
+```markdown
 - [x] Completed task
 - [ ] Incomplete task
 ```
+
 - Links to Sections in the Document:
-```
+
+```markdown
 [Link to Header](#header-1)
 ```
+
 - Replace header-1 with the actual identifier of your header.
-  -  Escaping Characters: 
+  - Escaping Characters:
+
 > If you want to display a Markdown character as-is (without formatting), you can escape it using a backslash (\). For example, to display an asterisk as an asterisk and not as an emphasis marker:
-```
+
+```markdown
 \*This will not be italicized\*
 ```
--  Horizontal Rule: 
-> Markdown interprets three or more hyphens, asterisks, or underscores as a horizontal rule: 
-```
+
+- Horizontal Rule:
+
+> Markdown interprets three or more hyphens, asterisks, or underscores as a horizontal rule:
+
+```markdown
 ---
 ***
 ___
 ```
-> These are the most commonly used Markdown formatting elements for 
-> creating README.md files and other Markdown documents. 
-> You can combine and customize these elements to 
+
+> These are the most commonly used Markdown formatting elements for
+> creating README.md files and other Markdown documents.
+> You can combine and customize these elements to
 > suit your specific documentation needs.
+
 - Footnotes:
-```
+
+```markdown
 H~2~O is a liquid. E=mc^2^ is an equation.
 ```
+
 > Use ~ for subscript and ^ for superscript.
-> These Markdown formatting elements can help you create well-structured and visually appealing content for webpages. 
+> These Markdown formatting elements can help you create well-structured and visually appealing content for webpages.
 > You can mix and match these elements to suit your specific needs and create informative and engaging web content.
